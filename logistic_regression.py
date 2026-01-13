@@ -31,3 +31,4 @@ def logistic_regression(x_train: np.ndarray, y_train: np.ndarray, x_test: np.nda
 
     y_pred = (p_test >= 0.5).astype(int)
     return y_pred
+    
